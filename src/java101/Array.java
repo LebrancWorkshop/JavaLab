@@ -11,9 +11,9 @@ package java101;
  */
 public class Array {
     public static void main(String[] args) {
-        int[] Cyber = {1,2,3,4};
+        int[] Cyber = {1,2,3,4,5,6,7,8,9};
         for(int i: Cyber){
-            System.out.println("Number " + i);
+            System.out.println("Number " + i + ", Index is " + (i - 1));
         }
     }
 }
